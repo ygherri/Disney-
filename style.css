@@ -1,0 +1,284 @@
+:root {
+  --white: #f9f9f9;
+  --primary-color: #0063e5;
+}
+
+body {
+  background-color: #040714;
+  color: #f9f9f9;
+  color: var(--white);
+  font-family: Avenir, sans-serif;
+}
+nav {
+  display: flex;
+  align-items: center;
+  padding: 0px 36px;
+  height: 70px;
+}
+nav a {
+  margin: 5px;
+}
+nav > .logo {
+  width: 110px;
+  margin-right: auto;
+}
+
+.btn {
+  padding: 16px 24px;
+  color: var(--white);
+  text-decoration: none;
+  border-radius: 4px;
+  border: solid 1px;
+}
+.signup {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.signin {
+  border: solid 1px var(--white);
+}
+header {
+  display: flex;
+  padding-top: 68px;
+
+  line-height: 20px;
+
+  /*background-image: url(https://cnbl-cdn.bamgrid.com/assets/67df7619a20b91…7a100f496f6c619dd3f1e53b3324fc4354d65974/original);*/
+}
+.content {
+  padding-left: 68px;
+}
+
+div .content {
+  display: flex;
+  width: 50%;
+  text-align: center;
+  line-height: 30px;
+  margin-left: 20px;
+}
+.content h1 {
+  font-size: 32px;
+  color: rgb(240, 240, 240);
+  margin-bottom: 30px;
+}
+.text-blue {
+  color: #00c8f5;
+  padding-bottom: 20px;
+}
+.content h3 {
+  font-size: 24px;
+  padding-bottom: 20px;
+}
+.small {
+  font-size: 15px;
+  color: silver;
+}
+.content button {
+  margin-bottom: 20px;
+  height: 60px;
+  padding: 16px 24px;
+  max-width: 360px;
+  background-color: #0063e5;
+  border: none;
+  color: var(--white);
+  height: 60px;
+  width: 360px;
+  border-radius: 4px;
+}
+.content button:hover {
+  cursor: pointer;
+}
+.abonnement {
+  display: inline-flex;
+  color: var(--white);
+  font-size: 20px;
+  padding-bottom: 60px;
+}
+.conditions {
+  text-decoration: none;
+  color: var(--white);
+}
+.offres {
+  font-size: 10px;
+  display: block;
+}
+header > div {
+  max-width: 740px;
+  text-align: left;
+}
+/* .grid {
+  display: grid;
+
+  background-size: cover;
+  align-items: center;
+}
+.grid > div,
+.grid > img {
+  grid-area: 1 / 1 / 2 / 2;
+}  */
+
+.background-image {
+  background-image: url(//cnbl-cdn.bamgrid.com/assets/8992708168a48fe6eda0aa2b62cdafd60ef854b237cec7a82c26d1ac24d67f29/original);
+  top: 70px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-repeat: no-repeat;
+  z-index: 0;
+  pointer-events: none;
+  grid-area: 1 / 1 / 2 / 2;
+  width: 100%;
+  background-position: top;
+  background-size: 100%;
+  position: absolute;
+}
+.content {
+  max-width: 640px;
+  width: 50%;
+}
+.section {
+  display: flex;
+}
+
+.media {
+  display: flex;
+  padding: 30px;
+  width: 100%;
+
+  margin-top: 7%;
+}
+div .img {
+  width: 50%;
+}
+.media img {
+  width: 100%;
+  padding: 30px;
+  padding-top: 190px;
+}
+div .textcontent {
+  display: block;
+  margin: 40px;
+  padding: 30px;
+  box-sizing: border-box;
+  width: 50%;
+}
+
+.textcontent h2 {
+  font-size: 40px;
+  margin-left: 40px;
+  margin-bottom: 24px;
+}
+.textcontent ul li p {
+  margin-bottom: 24px;
+  font-size: 20px;
+  line-height: 30px;
+  color: #c0c0c0;
+  display: block;
+  flex-wrap: wrap;
+}
+.textcontent ul li {
+  list-style: outside;
+  display: list-item;
+  text-align: left;
+  padding-right: 25%;
+}
+.textcontent ul li {
+  margin: 18px 0px;
+}
+.textcontent ul {
+  margin-left: 90px;
+}
+
+#center button {
+  display: block;
+  margin-bottom: 20px;
+
+  height: 60px;
+  margin-left: 35%;
+  padding: 16px 24px;
+  max-width: 360px;
+  background-color: #0063e5;
+  border: none;
+  color: var(--white);
+  height: 60px;
+  width: 360px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-size: 18px;
+  padding: 16.5px 24px;
+}
+#center a {
+  text-decoration: none;
+}
+#devices {
+  display: flex;
+  justify-content: center;
+}
+section {
+  display: block;
+}
+
+#devices {
+  display: block;
+  text-align: center;
+  padding: 95px 47px;
+}
+#devices ul li {
+  list-style: none;
+}
+#devices h3 {
+  text-align: center;
+  justify-content: center;
+}
+h2 {
+  font-size: 40px;
+  margin: 0px 0px 24px;
+  font-weight: bold;
+}
+h3 {
+  margin: 20px 0px 25px;
+  font-size: 25px;
+  color: #f9f9f9;
+}
+.grid-list {
+  display: flex;
+  justify-content: space-around;
+}
+.medium p {
+  font-size: 16px;
+  margin: 0px 0px 20px;
+}
+.grid-item img {
+  width: 200px;
+  height: 100px;
+}
+footer > .picture {
+  width: 110px;
+  margin-right: auto;
+  align-items: center;
+  display: block;
+  margin-left: auto;
+}
+footer a {
+  color: silver;
+  padding: 8px 12px;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 0;
+  white-space: nowrap;
+}
+.fine span {
+  font-size: 12px;
+}
+.footnote {
+  font-size: 12px;
+}
+footer .fine {
+  max-width: 1024px;
+  margin: 4px auto 15px;
+}
+footer {
+  padding: 26px 8px;
+  text-align: center;
+}
